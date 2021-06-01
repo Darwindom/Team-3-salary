@@ -1,0 +1,38 @@
+*{
+    background-color: rgb(14, 13, 13);
+    color: rgb(250, 240, 226);
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    border:  solid darkcyan;
+    padding: 50px;
+    margin: 30px;
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.btn-large{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.out{
+    margin-top: 50px;
+    font-size: 50px;
+}
