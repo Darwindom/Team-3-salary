@@ -13,8 +13,9 @@ let result = sum((+morning.value * 256), (+evening.value * 304), (+night.value *
 out.innerHTML = result;
 
 check.onchange = () => {
+    let six = +result + (+result * 6 / 100);
     if(check.checked){
-        out.innerHTML = +result + (+result * 6 / 100);
+        out.innerHTML = Math.round(+six);
     }
    
 }
